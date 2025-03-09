@@ -1,11 +1,7 @@
 import openai
 import discord
 from discord.ext import commands
-import os
-
-# 🔹 API-Keys aus Railway Environment Variablen abrufen
-DISCORD_BOT_TOKEN = os.getenv("MTM0ODA1MjMzNjgyMzc2MzAzNA.G59h6p.N1pEgx3MjanSwRRPjnniHCJrm1lvXa-kT_8RY4")
-OPENAI_API_KEY = os.getenv("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")
+import 
 
 # 🔹 OpenAI API initialisieren
 openai.api_key = OPENAI_API_KEY
